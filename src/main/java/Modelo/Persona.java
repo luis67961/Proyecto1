@@ -7,6 +7,8 @@ package Modelo;
 public class Persona {
     private String id, nombre, sexo, apellido, carrera;
 
+private int edad;
+
     public String getId() {
         return id;
     }
@@ -46,6 +48,15 @@ public class Persona {
     public void setCarrera(String carrera) {
         this.carrera = carrera;
     }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
     
     
 }
